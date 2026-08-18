@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-site",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@10.22.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler deploy",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.1.6",
+    "astro-icon": "^1.1.5",
+    "motion": "^12.43.0",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@iconify-json/ph": "^1.2.2",
+    "wrangler": "^4"
+  }
+}
